@@ -29,6 +29,7 @@ new (class {
 
     this.screenshotModule = new (require('./module/screenshot'))(this);
     this.historyModule = new (require('./module/history'))(this);
+    this.updaterModule = new (require('./module/updater'))(this)
 
     const startAtLogin = this.optionsModule.getOption('startAtLogin');
 

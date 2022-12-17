@@ -18,7 +18,7 @@ const config = require('../config')
 module.exports = class {
   constructor (parent) {
     this.parent = parent
-    this.options = parent.preferencesModule
+    this.options = parent.optionsModule
 
     this.updatePath = 'https://raw.githubusercontent.com/mariogarridopt/Saphira/master/package.json'
     this.downloadPath = 'https://github.com/mariogarridopt/Saphira/releases/download/'
