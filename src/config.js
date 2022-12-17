@@ -30,7 +30,7 @@ config.paths = {
 config.services = {
   vgy: {
     name: 'vgy.me',
-    token: 'vSC16ZFjziI8KcERZkIHvwGmiINsEO8G',
+    token: '',
     endpoint: 'https://vgy.me/upload'
   },
   imgur: {
